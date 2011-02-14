@@ -6,6 +6,7 @@ except ImportError:
     # No multilingual support
     from Products.Archetypes import atapi
 from Products.ATContentTypes.content import schemata
+from Products.CMFCore.permissions import View
 
 from collective.folderishtypes.content import folderish_event
 

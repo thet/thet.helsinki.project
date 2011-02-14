@@ -27,5 +27,6 @@ setup(name='thet.helsinki.project',
           'setuptools',
           # -*- Extra requirements: -*-
           'Plone',
+          'collective.folderishtypes',
       ],
       )
