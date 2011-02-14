@@ -1,0 +1,14 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:browser="http://namespaces.zope.org/browser"
+    i18n_domain="thet.helsinki.project">
+
+    <browser:page
+        for="thet.helsinki.project.interfaces.IProject"
+        name="project_view"
+        template="project_view.pt"
+        permission="zope2.View"
+        />
+
+</configure>
+

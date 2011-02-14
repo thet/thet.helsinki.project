@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<object>
+ <resourcetypes>
+  <linkable purge="False">
+   <element value="Project"/>
+  </linkable>
+  <containsobjects purge="False">
+   <element value="Project"/>
+  </containsobjects>
+  <containsanchors purge="False">
+   <element value="Project"/>
+  </containsanchors>
+ </resourcetypes>
+</object>
+
