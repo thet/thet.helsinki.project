@@ -3,12 +3,17 @@
     xmlns:browser="http://namespaces.zope.org/browser"
     i18n_domain="thet.helsinki.project">
 
+    <browser:resourceDirectory
+        name="thet.helsinki.project.resources"
+        directory="resources"
+        permission="zope.Public"
+        />
+
     <browser:page
-        for="thet.helsinki.project.interfaces.IProject"
+        for="..interfaces.IProject"
         name="project_view"
         template="project_view.pt"
         permission="zope2.View"
         />
 
 </configure>
-

@@ -1,14 +1,15 @@
+from zope.i18nmessageid import MessageFactory
 from Products.CMFCore import utils
+
 try:
     from Products.LinguaPlone import public  as atapi
 except ImportError:
     # No multilingual support
     from Products.Archetypes import atapi
 
-from zope.i18nmessageid import MessageFactory
 from thet.helsinki.project import config
 
-MsgFact = MessageFactory('thet.helsinki.project')
+MsgFact = MessageFactory(config.PROJECTNAME)
 
 def initialize(context):
     """Register content types through Archetypes with Zope and the CMF.
@@ -25,4 +26,3 @@ def initialize(context):
             permission         = config.ADD_PERMISSIONS[atype.portal_type],
             extra_constructors = (constructor,),
             ).initialize(context)
-

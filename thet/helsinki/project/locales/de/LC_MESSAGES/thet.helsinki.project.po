@@ -1,0 +1,137 @@
+# --- PLEASE EDIT THE LINES BELOW CORRECTLY ---
+# thet.helsinki.project - german translation
+# johannes raggam <johannes@raggam.co.at>, 2011.
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.0\n"
+"POT-Creation-Date: 2011-02-16 20:53+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
+"Last-Translator: johannes raggam <johannes@raggam.co.at>\n"
+"Language-Team: german\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"Language-Code: de\n"
+"Language-Name: German\n"
+"Preferred-Encodings: utf-8 latin1\n"
+"Domain: thet.helsinki.project\n"
+
+#: ./profiles/default/types/project.xml
+msgid "Edit"
+msgstr "Editieren"
+
+#: ./profiles/default/types/project.xml
+msgid "External Edit"
+msgstr "Extern Editieren"
+
+#: ./profiles/default/types/project.xml
+msgid "History"
+msgstr "Historie"
+
+#: ./profiles/default/types/project.xml
+msgid "Project"
+msgstr "Projekt"
+
+#: ./profiles/default/types/project.xml
+msgid "Radio Helsinki Projects."
+msgstr "Radio Helsinki Projekte."
+
+#: ./profiles/default/types/project.xml
+msgid "View"
+msgstr "Anzeigen"
+
+#. Default: "Attendees"
+#: ./browser/project_view.pt:147
+msgid "contact_attendees"
+msgstr "Teilnehmer"
+
+#. Default: "Contact Name"
+#: ./browser/project_view.pt:127
+msgid "contact_name"
+msgstr "Kontakt Name"
+
+#. Default: "Contact Phone"
+#: ./browser/project_view.pt:139
+msgid "contact_phone"
+msgstr "Kontakt Telefon"
+
+#. Default: "More information about this event…"
+#: ./browser/project_view.pt:180
+msgid "event_more_information"
+msgstr "Mehr informationen über dieses Projekt…"
+
+#. Default: "What"
+#: ./browser/project_view.pt:39
+msgid "event_what"
+msgstr "Was"
+
+#. Default: "When"
+#: ./browser/project_view.pt:47
+msgid "event_when"
+msgstr "Wann"
+
+#. Default: "${startdate} to ${linebreak} ${enddate}"
+#: ./browser/project_view.pt:66
+msgid "event_when_differentday"
+msgstr "${startdate} bis ${linebreak} ${enddate}"
+
+#: ./browser/project_view.pt:60
+msgid "event_when_differentday_optional_word_between_date_and_time"
+msgstr ""
+
+#. Default: "${date} ${linebreak} from ${starttime} to ${endtime}"
+#: ./browser/project_view.pt:101
+msgid "event_when_sameday"
+msgstr "${date} ${linebreak} von ${starttime} bis ${endtime}"
+
+#. Default: "Where"
+#: ./browser/project_view.pt:116
+msgid "event_where"
+msgstr "Wo"
+
+#. Default: "Add event to calendar"
+#: ./browser/project_view.pt:155
+msgid "heading_add_to_calendar"
+msgstr "Projekt in Kalender eintragen"
+
+#. Default: "The project image will be shown in listings and in the project detail view itself."
+#: ./content/project.py:27
+msgid "help_project_image"
+msgstr "Das Bild wird in Auflistungen und in der Detailansicht angezeigt."
+
+#. Default: "iCal"
+#: ./browser/project_view.pt:168
+msgid "label_add_to_ical"
+msgstr "iCal"
+
+#. Default: "vCal"
+#: ./browser/project_view.pt:162
+msgid "label_add_to_vcal"
+msgstr "vCal"
+
+#. Default: "Image Caption"
+#: ./content/project.py:37
+msgid "label_image_caption"
+msgstr "Bilduntertitel"
+
+#. Default: "Image"
+#: ./content/project.py:29
+msgid "label_project_image"
+msgstr "Bild"
+
+#. Default: "Event details"
+#: ./browser/project_view.pt:33
+msgid "summary_event_details"
+msgstr "Projekt Details"
+
+#. Default: "Download this event in iCal format"
+#: ./browser/project_view.pt:163
+msgid "title_add_to_ical"
+msgstr "Dieses Projekt im iCal Format herunterladen."
+
+#. Default: "Download this event in vCal format"
+#: ./browser/project_view.pt:157
+msgid "title_add_to_vcal"
+msgstr "Dieses Projekt im vCal Format herunterladen."
+

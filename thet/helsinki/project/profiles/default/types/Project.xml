@@ -1,10 +1,12 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <object name="Project"
    meta_type="Factory-based Type Information with dynamic views"
    i18n:domain="thet.helsinki.project" xmlns:i18n="http://xml.zope.org/namespaces/i18n">
 
  <property name="title" i18n:translate="">Project</property>
  <property name="description" i18n:translate="">Radio Helsinki Projects.</property>
+ <property name="content_icon">++resource++thet.helsinki.project.resources/project_icon.png</property>
+
 
  <property name="content_meta_type">Project</property>
  <property name="product">thet.helsinki.project</property>
