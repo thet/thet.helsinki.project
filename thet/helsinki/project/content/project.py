@@ -17,7 +17,7 @@ from thet.helsinki.project import MsgFact as _
 from plone.app.imaging.utils import getAllowedSizes
 allowed_sizes = getAllowedSizes()
 
-ct_schema = folderish_event.ct_schema.copy() + atapi.Schema((
+type_schema = folderish_event.type_schema.copy() + atapi.Schema((
     atapi.ImageField('image',
         required=False,
         storage = atapi.AnnotationStorage(migrate=True),
@@ -39,7 +39,7 @@ ct_schema = folderish_event.ct_schema.copy() + atapi.Schema((
         ),
 ))
 
-schemata.finalizeATCTSchema(ct_schema,
+schemata.finalizeATCTSchema(type_schema,
                             folderish=True,
                             moveDiscussion=False)
 
@@ -48,7 +48,7 @@ class Project(folderish_event.FolderishEvent):
 
     portal_type = 'Project'
     _at_rename_after_creation = True
-    schema = ct_schema
+    schema = type_schema
 
     security = ClassSecurityInfo()
 
