@@ -38,7 +38,6 @@ type_schema = folderish_event.type_schema.copy() + atapi.Schema((
             size = 40)
         ),
 ))
-
 schemata.finalizeATCTSchema(type_schema,
                             folderish=True,
                             moveDiscussion=False)
