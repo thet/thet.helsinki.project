@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<rolemap>
+  <permissions>
+    <permission name="thet.helsinki.project: Add Project" acquire="True">
+      <role name="Manager"/>
+      <role name="Owner"/>
+      <role name="Contributor"/>
+    </permission>
+  </permissions>
+</rolemap>
