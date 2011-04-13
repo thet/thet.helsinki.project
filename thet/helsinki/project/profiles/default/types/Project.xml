@@ -5,8 +5,7 @@
 
  <property name="title" i18n:translate="">Project</property>
  <property name="description" i18n:translate="">Radio Helsinki Projects.</property>
- <property name="content_icon">++resource++thet.helsinki.project.resources/project_icon.png</property>
-
+ <property name="icon_expr"></property>
 
  <property name="content_meta_type">Project</property>
  <property name="product">thet.helsinki.project</property>
