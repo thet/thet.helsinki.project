@@ -2,4 +2,7 @@
     display: inline-block;
     line-height: 2em;
     padding-left: 20px !important; 
-    background:url("++resource++thet-helsinki-project-resources/project_icon.png") no-repeat scroll 0 0 transparent; }
+    background-image:url("++resource++thet-helsinki-project-resources/project_icon.png");
+    background-repeat:no-repeat;
+    background-attachment:scroll;
+    background-position:0 0; }
