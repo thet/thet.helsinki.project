@@ -4,4 +4,10 @@ Changelog
 1.0dev (unreleased)
 -------------------
 
+- Add Teaser to image_types in portal_atct to allow image scale recreation.
+  [thet]
+
+- Add HistroyAwareMixin and configure Teaser to be versionable.
+  [thet]
+
 - Initial release
