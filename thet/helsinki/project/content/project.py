@@ -8,7 +8,7 @@ except ImportError:
 from Products.ATContentTypes.content import schemata
 from Products.CMFCore.permissions import View
 
-from collective.folderishtypes.content import folderish_event
+from collective.folderishtypes.at import content as folderishtypes
 
 from thet.helsinki.project.interfaces import IProject
 from thet.helsinki.project.config import PROJECTNAME
@@ -17,7 +17,7 @@ from thet.helsinki.project import MsgFact as _
 from plone.app.imaging.utils import getAllowedSizes
 allowed_sizes = getAllowedSizes()
 
-type_schema = folderish_event.type_schema.copy() + atapi.Schema((
+type_schema = folderishtypes.event_schema.copy() + atapi.Schema((
     atapi.ImageField('image',
         required=False,
         storage = atapi.AnnotationStorage(migrate=True),
@@ -42,7 +42,7 @@ schemata.finalizeATCTSchema(type_schema,
                             folderish=True,
                             moveDiscussion=False)
 
-class Project(folderish_event.FolderishEvent):
+class Project(folderishtypes.FolderishEvent):
     implements(IProject)
 
     portal_type = 'Project'
@@ -74,6 +74,6 @@ class Project(folderish_event.FolderishEvent):
             if image is not None and not isinstance(image, basestring):
                 # image might be None or '' for empty images
                 return image
-        return folderish_event.FolderishEvent.__bobo_traverse__(self, REQUEST, name)
+        return folderishtypes.FolderishEvent.__bobo_traverse__(self, REQUEST, name)
 
 atapi.registerType(Project, PROJECTNAME)
