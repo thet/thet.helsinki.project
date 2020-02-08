@@ -11,6 +11,7 @@
 
     <browser:page
         for="..interfaces.IProject"
+        class=".project.ProjectView"
         name="project_view"
         template="project_view.pt"
         permission="zope2.View"
